@@ -16,4 +16,4 @@ After that, just select the "GR09" Theme from the drop down and you're good to g
 
 ### Known Issues ###
 
-There is no theme for combined view, as combined view themeing is not fully supported.
+Theme does not affect combined view.
