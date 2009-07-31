@@ -91,6 +91,7 @@ body, html {
 	
 #_newsItemContent {
 	padding-top: 0.5em;
+	max-width: 650px;
 	}
 #_newsItemDescription {
 	overflow: hidden;
