@@ -30,7 +30,6 @@
 
 a, a:link, a:visited, a:hover, a:active  {
 	color: #2244BB;
-	text-decoration: underline;
 	}
 
 body, html {
@@ -93,6 +92,11 @@ body, html {
 	padding-top: 0.5em;
 	max-width: 650px;
 	}
+	
+#_newsItemContent a, a:link, a:visited, a:hover, a:active {
+	text-decoration: underline;
+}
+
 #_newsItemDescription {
 	overflow: hidden;
 	}

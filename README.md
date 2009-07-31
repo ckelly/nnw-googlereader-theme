@@ -2,7 +2,7 @@ A Google Reader Theme for NetNewsWire
 ===================================================
 
 In celebration of NetNewsWire 3.2 Beta gaining Google Reader Sync support, 
-I created a quick theme that mimics the Google Reader content area.
+I created a quick theme that mimics the Google Reader "Expanded View" content area.
 
 ### Installation ###
 
