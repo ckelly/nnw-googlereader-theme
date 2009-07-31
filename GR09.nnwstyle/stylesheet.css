@@ -1,0 +1,115 @@
+/*
+	Google Reader-like display for NetNewsWire 3+.
+	Chris Kelly : http://ckelly.net/
+	Project Page : (github) 
+	v1.0 - 30 Jul 2009
+
+	Released under a Creative Commons Attribution-ShareAlike License:
+	<http://creativecommons.org/licenses/by-sa/2.0/>
+
+	You are free:
+
+	* 	To copy, distribute, display, and perform the work.
+	* 	To make derivative works.
+	* 	To make commercial use of the work.
+
+	Under the following conditions:
+
+	*	Attribution. You must give the original author credit.
+
+	*	Share Alike. If you alter, transform, or build upon this work,
+		you may distribute the resulting work only under a license
+		identical to this one.
+
+	* 	For any reuse or distribution, you must make clear to others
+		the license terms of this work.
+
+	* 	Any of these conditions can be waived if you get permission
+		from the author.
+*/
+
+a, a:link, a:visited, a:hover, a:active  {
+	color: #2244BB;
+	text-decoration: underline;
+	}
+
+body, html {
+	color: #000;
+	padding: 0;
+	margin: 0;
+	font-family: arial, sans-serif;
+	font-size: 105%;
+	}
+
+.clear {
+	clear: both;
+}
+
+#_pageContainer {
+	padding: 9px 10px 4px 10px;
+	margin: 10px;
+	border: 2px solid #6688EE;
+	-webkit-border-radius: 3px;
+}
+#_newsItemTitle a, a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+}
+#_newsItemTitle {
+	font-size: 140%;
+	max-width: 650px;
+	font-weight: bold;
+	}
+
+#_newsItemDateLine {
+	float: right;
+	color: #666;
+	}
+	
+#_newsItemDateLine span.newsItemSource {
+	display: none;
+	}
+	
+#_newsItemDateLine span.newsItemSubject {
+	display: none;
+}
+
+#_newsItemSourceLine {
+	color: #666;
+	}
+	
+#_newsItemSourceLine span.newsItemDate {
+	display: none;
+	}
+
+#_newsItemSourceLine span.newsItemSubject {
+	display: none;
+}
+	
+#_newsItemSourceLine img {
+	display: none;
+	}
+	
+#_newsItemContent {
+	padding-top: 0.5em;
+	}
+#_newsItemDescription {
+	overflow: hidden;
+	}
+span.newsItemSource:before {
+	content: "from ";
+	}
+span.newsItemCreator:before {
+	content: "by ";
+	}
+span.newsItemEnclosure:before {
+	content: " Enclosure: ";
+	}
+span.newsItemCommentsLink:before {
+	content: "- ";
+	}
+#_newsItemExtraLinks {
+	clear: both;
+	}
+blockquote {
+	text-align: justify;
+	}
