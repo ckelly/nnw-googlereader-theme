@@ -6,7 +6,7 @@ I created a quick theme that mimics the Google Reader content area.
 
 ### Installation ###
 
-Theoretically you should be able to double click the GR09.nnwstyle file and it should install into NNW. 
+You should be able to double click the GR09.nnwstyle file and it will install into NNW. 
 
 if this doesn't work, copy/ move the GR09.nnwstyle file to the following directory:
 
